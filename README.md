@@ -1,2 +1,2 @@
 # odin-landing-page
-This project showcases my CSS progression in TheOdinProject's Foundation course.
+This is a homepage website showcasing my CSS progression in TheOdinProject's Foundation course.
