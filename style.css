@@ -84,23 +84,24 @@ ul {
     margin: 0 0 48px;
 }
 .cards-display {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 48px;
-    justify-content: center;
+    display:flex;
+    gap:48px;
+    flex-wrap:wrap;
+    justify-content:center;
 }
-.cards-display > div {
+.card-item {
+    width:150px;
+    font-size:12px;
+    line-height:1.3;
+    text-align:center;
+}
+.cards-display .card {
     width: 150px;
-    font-size: 12px;
-    line-height: 1.3;
-}
-.cards-display > div > div {
-    width: 100%;
     height: 150px;
     border: 3px solid #3882F6;
     border-radius: 12px;
-    margin-bottom: 8px;
     box-sizing: border-box;
+    margin: 0 0 8px;
 }
 
 /* Quote section */
