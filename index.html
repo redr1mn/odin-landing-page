@@ -1,12 +1,90 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Homepage</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <p>text</p>
-</body>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Homepage</title>
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+        <nav class="nav-bar">
+            <p class="nav-logo">Header Logo</p>
+            <ul class="nav-links">
+                <li><a href="#">header link one</a></li>
+                <li><a href="#">header link two</a></li>
+                <li><a href="#">header link three</a></li>
+            </ul>
+        </nav>
+
+        <header class="hero-section">
+            <div class="hero-text">
+                <h1 class="hero-main-text">This website is awesome</h1>
+                <p class="hero-secondary-text">
+                    This website has some subtext that goes here under the main
+                    title. It's a smaller font and the color is lower contrast
+                </p>
+                <button class="hero-sign-up sign-up-button">
+                    <a href="#">Sign up</a>
+                </button>
+            </div>
+            <div class="hero-image-container">
+                <img
+                    src="images/header-image.jpg"
+                    alt="A beautiful mountain photoshoot with snowy tops"
+                />
+            </div>
+        </header>
+
+        <div class="info-boxes">
+            <h2>Some random information.</h2>
+            <div class="container-info-box">
+                <div class="context-box">
+                    <div class="image-box"></div>
+                    <p>This is some subtext under an illustration or image</p>
+                </div>
+                <div class="context-box">
+                    <div class="image-box"></div>
+                    <p>This is some subtext under an illustration or image</p>
+                </div>
+                <div class="context-box">
+                    <div class="image-box"></div>
+                    <p>This is some subtext under an illustration or image</p>
+                </div>
+                <div class="context-box">
+                    <div class="image-box"></div>
+                    <p>This is some subtext under an illustration or image</p>
+                </div>
+            </div>
+        </div>
+
+        <blockquote class="quote">
+            <p class="quote-text">
+                This is an inspiring quote, or a testimonial from a customer.
+                Maybe it's just filling up space, or maybe people will actually
+                read it. Who knows? All I know is that it looks nice.
+            </p>
+            <p class="signed">-Thor, God of Thunder</p>
+        </blockquote>
+
+        <div class="sign-up-window">
+            <div class="call-box">
+                <div>
+                    <h3>Call to action! It's time!</h3>
+                    <p>
+                        Sign up for our product by clicking that button right
+                        over there!
+                    </p>
+                </div>
+                <div>
+                    <button class="call-sign-up sign-up-button">
+                        <a href="#">Sign up</a>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <footer class="footer">
+            <p>Copyright &copy The Odin Project 2021</p>
+        </footer>
+    </body>
 </html>

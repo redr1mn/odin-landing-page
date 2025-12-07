@@ -1,0 +1,210 @@
+:root {
+    font-family: Roboto, sans-serif;
+    --background-dark: #1f2937;
+    --hero-main-size: 48px;
+    --hero-main-color: #f9faf8;
+    --hero-weight: 900;
+    --hero-secondary-size: 18px;
+    --hero-secondary-color: #e5e7eb;
+    --header-text-size: 24px;
+    --header-color: #f9faf8;
+
+    --call-button-color: #3882f6;
+    --information-header-size: 36px;
+    --information-header-color: #1f2937;
+    --information-header-weight: 900;
+
+    --quote-background: #e5e7eb;
+    --quote-size: 36px;
+    --quote-color: #1f2937;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+}
+
+/* navigation bar */
+.nav-bar {
+    display: flex;
+    background: var(--background-dark);
+    justify-content: space-between;
+    padding: 15px 15%;
+}
+
+.nav-logo {
+    font-size: var(--header-text-size);
+    color: var(--hero-secondary-color);
+    font-weight: 700;
+}
+
+.nav-links {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    list-style: none;
+}
+
+.nav-links li a {
+    text-decoration: none;
+    color: var(--hero-secondary-color);
+}
+
+/* button */
+.sign-up-button {
+    width: 110px;
+    padding: 6px 12px;
+    border-radius: 6px;
+}
+
+/* header */
+.hero-section {
+    display: flex;
+    padding: 15px 15%;
+    background: var(--background-dark);
+    gap: 10%;
+}
+
+.hero-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: var(--hero-main-color);
+    gap: 10px;
+}
+
+.hero-main-text {
+    font-size: var(--hero-main-size);
+    color: var(--hero-main-color);
+    font-weight: var(--hero-weight);
+}
+
+.hero-image-container {
+    display: flex;
+    align-items: center;
+    width: 840px;
+    height: 360px;
+}
+
+.hero-image-container img {
+    aspect-ratio: 21 / 9;
+    width: 100%;
+    flex: 0 0 auto;
+    object-fit: cover;
+}
+
+.hero-sign-up {
+    background-color: var(--call-button-color);
+    color: var(--hero-secondary-color);
+}
+
+.hero-sign-up a {
+    text-decoration: inherit;
+    color: var(--hero-main-color);
+}
+
+/* info section */
+.info-boxes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 0;
+    gap: 50px;
+    background-color: var(--hero-main-color);
+}
+
+.info-boxes h2 {
+    color: var(--information-header-color);
+    font-size: 36px;
+    font-weight: var(--information-header-weight);
+}
+
+.container-info-box {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+}
+
+.container-info-box .context-box {
+    width: min-content;
+    text-align: center;
+}
+
+.context-box {
+    color: var(--information-header-color);
+}
+
+.container-info-box .image-box {
+    border: var(--call-button-color) solid 4px;
+    border-radius: 18px;
+    width: 150px;
+    height: 150px;
+    margin-bottom: 10px;
+}
+
+/* quote */
+.quote {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--quote-background);
+    padding: 160px 25%;
+}
+
+.quote-text {
+    color: var(--quote-color);
+    font-style: italic;
+    font-size: var(--quote-size);
+    font-weight: 300;
+    text-align: left;
+}
+
+.signed {
+    text-align: right;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+/* sign up */
+.sign-up-window {
+    background-color: var(--hero-main-color);
+    padding: 80px 0;
+}
+
+.call-box {
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--call-button-color);
+    border: var(--call-button-color);
+    border-radius: 5px;
+    padding: 50px 70px;
+    margin: 0 15%;
+    color: var(--hero-main-color);
+}
+
+.call-box h3 {
+    font-size: 20px;
+}
+
+.call-box p {
+    color: var(--hero-secondary-color);
+}
+
+.call-sign-up {
+    background-color: var(--call-button-color);
+    border: 2px solid var(--header-color);
+}
+
+.call-sign-up a {
+    text-decoration: inherit;
+    color: var(--header-color);
+}
+
+/* footer */
+.footer {
+    background: var(--background-dark);
+    color: var(--header-color);
+    text-align: center;
+    padding: 24px 0;
+}
